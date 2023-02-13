@@ -2,7 +2,7 @@
 AspNetCore CQRS Pattern ve MediatR kütüphanesi kullanımına örnek küçük bir çalışma reposu. Bu küçük repo da CQRS ile QueryModel ve CommendModel kullanarak listeleme(reads) ve oluşturma(writes) işlemi gerçekleştirdim.
 
 ## Commands ##
-Veri üzerinde bir değişiklik yapılacaksa Commandslar kullanılır. Commands sınıfı içindeki handler white storage'ı besliyor.
+Veri üzerinde bir değişiklik yapılacaksa Commands kullanılır. Commands sınıfı içindeki handler white storage'ı besliyor.
 
 ## Query ##
 Veri üzerinde bir değişiklik yapılmadan presentation katmanına sunulacaksa query ler kullanılır. Databaseden data okunup presentation katmanına sunulur.
